@@ -8,10 +8,11 @@ struct TasksController: RouteCollection {
   
   func boot(routes: RoutesBuilder) throws {
     routes.webSocket("socket", onUpgrade: self.webSocket)
-    routes.get(use: index)
-    routes.post(":TaskId", "Done", use: done)
-    routes.put(use: update)
-    routes.delete(":TaskId" ,use: delete)
+      let tasks = routes.grouped("tasks")
+      tasks.get(use: index)
+      tasks.put(use: update)
+      tasks.post(":TaskId", "Done", use: done)
+      tasks.delete(":TaskId" ,use: delete)
       
   }
   
