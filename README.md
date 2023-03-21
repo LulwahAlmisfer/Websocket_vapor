@@ -9,6 +9,9 @@ All API End points and documentation can be found at:
 The following is just a simple list of the api end points:
 
 >GET /tasks
+
 >PUT /tasks
+
 >POST /tasks/:TaskID/Done
+
 >DELETE /tasks/:TaskID
