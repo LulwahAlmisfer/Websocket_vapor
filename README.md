@@ -8,6 +8,8 @@ All API End points and documentation can be found at:
 
 The following is just a simple list of the api end points:
 
+WebSocket URL: ws://localhost:8080/socket
+
 >GET /tasks
 
 >PUT /tasks
