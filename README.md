@@ -22,4 +22,4 @@ The following is just a simple list of the api end points:
 ## Developers 
 - Reema Alsheddi  [LinkedIn](https://www.linkedin.com/in/reema-alsheddi-7b92a123b/) 
 - Badria Alfurhood  [LinkedIn](https://www.linkedin.com/in/badria-sulaiman-alfurhood-0482582/) 
-- Lulwah Almisfer [LinkedIn](https://www.linkedin.com/in/gydam/) 
+- Lulwah Almisfer [LinkedIn](https://www.linkedin.com/in/lulwahalmisfer/) 
